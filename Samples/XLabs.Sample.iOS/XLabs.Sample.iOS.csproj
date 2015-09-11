@@ -33,6 +33,10 @@
     <MtouchI18n>
     </MtouchI18n>
     <MtouchSdkVersion>7.1</MtouchSdkVersion>
+    <CodesignKey>iPhone Developer: Edward McConnell (PVW5YMG3EM)</CodesignKey>
+    <CodesignProvision>eda98183-0e4b-4dad-82e2-da6ba1f0676f</CodesignProvision>
+    <CodesignResourceRules />
+    <CodesignExtraArgs />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>full</DebugType>
@@ -61,15 +65,25 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
-    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignEntitlements>
+    </CodesignEntitlements>
     <MtouchDebug>True</MtouchDebug>
-    <CodesignKey>iPhone Developer</CodesignKey>
-    <MtouchExtraArgs>
-    </MtouchExtraArgs>
+    <CodesignKey>iPhone Developer: Edward McConnell (PVW5YMG3EM)</CodesignKey>
     <MtouchArch>ARMv7</MtouchArch>
     <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
     <MtouchI18n>
     </MtouchI18n>
+    <CodesignProvision>eda98183-0e4b-4dad-82e2-da6ba1f0676f</CodesignProvision>
+    <CodesignResourceRules />
+    <CodesignExtraArgs />
+    <MtouchSdkVersion>8.4</MtouchSdkVersion>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchProfiling>False</MtouchProfiling>
+    <MtouchFastDev>False</MtouchFastDev>
+    <MtouchUseLlvm>False</MtouchUseLlvm>
+    <MtouchUseThumb>False</MtouchUseThumb>
+    <MtouchUseSGen>False</MtouchUseSGen>
+    <MtouchUseRefCounting>False</MtouchUseRefCounting>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>full</DebugType>

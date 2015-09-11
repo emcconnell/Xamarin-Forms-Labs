@@ -5,7 +5,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>XLabs.Sample.iOS</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.your-company.XLabs.Sample.iOS</string>
+	<string>com.twinrockets.xlabs</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -13,7 +13,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
-	<string></string>
+	<string>6.0</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
@@ -28,6 +28,7 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -66,5 +67,7 @@
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Can I track your location</string>
+	<key>UIMainStoryboardFile~ipad</key>
+	<string>SensorStoryboardController_iPhone</string>
 </dict>
 </plist>
